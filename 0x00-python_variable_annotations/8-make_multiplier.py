@@ -9,4 +9,6 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     def multi_float(n: float) -> float:
         """Type-annotated function make_multiplier that takes a float multiplier as"""
         return n * multiplier
+    
+    
     return multi_float
